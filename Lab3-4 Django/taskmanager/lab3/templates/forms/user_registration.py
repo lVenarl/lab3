@@ -1,5 +1,5 @@
 from django.forms import ModelForm
-from taskmanager.lab3.models import User
+from ...models import User
 
 class RegistrationForm(ModelForm):
     class Meta:

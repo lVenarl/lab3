@@ -1,6 +1,6 @@
 from django.urls import path
 
-from taskmanager.lab3.views import content, login, logout, registration
+from .views import content, login, logout, registration
 
 urlpatterns = [
     path("content/", content, name="content"),

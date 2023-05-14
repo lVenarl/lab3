@@ -1,10 +1,8 @@
 from django.shortcuts import redirect, render
 
 
-from .taskmanager.lab3.templates.forms.user_login import LoginForm
-from templates.forms.book_form import BookForm
-from templates.forms import RegistrationForm
-from models import Book, User
+from .templates.forms import LoginForm, BookForm, RegistrationForm
+from .models import Book, User
 
 
 
